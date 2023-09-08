@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <TEI xlms="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sopra il ritratto di una bella donna scolpito nel monumento sepolcrale della medesima</title>
+                <author><a href="http://viaf.org/viaf/12311353">Giacomo Leopardi</a></author>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>utente sconosciuto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>marcatura</resp>
+                    <name xml:id="GC">Giovanni Camporese</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>BEIC</publisher>
+                <date>2004</date>
+                <pubPlace>Milano</pubPlace>
+                <avaibility>Libero accesso</avaibility>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Giacomo Leopardi</author>
+                    <title>Canti</title>
+                    <edition>Laterza, 2 edizione</edition>
+                    <editor role="editor" xml:id="LG">Leone Ginzburg</editor>
+                    <date>1938</date>
+                    <extent>280 p. ; 22 cm.</extent>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+                <title type="main"><num value="21">XXI</num> Sopra il ritratto di una bella donna <title type="sub">scolpito nel monumento sepolcrale della medesima</title></title>
+            </head>
+        <lg type="stanza">
+            <l enjamb="yes">Tal fosti: or qui sotterra</l>
+            <l enjamb="yes">Polve e scheletro sei. Su l’ossa e il fango</l>
+            <l enjamb="yes">Immobilmente collocato invano,</l>
+            <l enjamb="yes">Muto, mirando dell’etadi il <rhyme>volo</rhyme>,</l>
+            <l enjamb="yes">Sta, di memoria <rhyme>solo</rhyme></l>
+            <l enjamb="yes">E di dolor custode, il simulacro</l>
+            <l enjamb="no">Della scorsa beltà. Quel dolce sguardo,</l>
+            <l enjamb="yes">Che tremar fe, se, come or sembra, immoto</l>
+            <l enjamb="yes">In altrui s’affisò; quel labbro, ond’alto</l>
+            <l enjamb="yes">Par, come d’urna piena,</l>
+            <l enjamb="yes">Traboccare il piacer; quel collo, cinto</l>
+            <l enjamb="yes">Già di desio; quell’amorosa mano,</l>
+            <l enjamb="yes">Che spesso, ove fu porta,</l>
+            <l enjamb="no">Sentì gelida far la man che <rhyme>strinse</rhyme>;</l>
+            <l enjamb="yes">E il seno, onde la gente</l>
+            <l enjamb="yes">Visibilmente di pallor si <rhyme>tinse</rhyme>,</l>
+            <l enjamb="yes">Furo alcun tempo: or fango</l>
+            <l enjamb="yes">Ed ossa sei: la vista</l>
+            <l enjamb="no">Vituperosa e trista un sasso asconde.</l>
+        </lg>
+        <lg type="stanza">
+            <l enjamb="yes">Così riduce il <rhyme>fato</rhyme></l>
+            <l enjamb="yes">Qual sembianza fra noi parve più viva</l>
+            <l enjamb="yes">Immagine del ciel. Misterio eterno</l>
+            <l enjamb="yes">Dell’esser nostro. Oggi d’eccelsi, immensi</l>
+            <l enjamb="yes">Pensieri e sensi inenarrabil fonte,</l>
+            <l enjamb="yes">Beltà grandeggia, e pare,</l>
+            <l enjamb="yes">Quale splendor <rhyme>vibrato</rhyme></l>
+            <l enjamb="no">Da natura immortal su queste arene,</l>
+            <l enjamb="no">Di sovrumani fati,</l>
+            <l enjamb="yes">Di fortunati regni e d’aurei mondi</l>
+            <l enjamb="yes">Segno e sicura spene</l>
+            <l enjamb="no">Dare al mortale stato:</l>
+            <l enjamb="yes">Diman, per lieve forza</l>
+            <l enjamb="yes">Sozzo a vedere, abominoso, <rhyme>abbietto</rhyme></l>
+            <l enjamb="yes">Divien quel che fu dianzi</l>
+            <l enjamb="yes">Quasi angelico <rhyme>aspetto</rhyme>,</l>
+            <l enjamb="yes">E dalle menti insieme</l>
+            <l enjamb="yes">Quel che da lui moveva</l>
+            <l enjamb="no">Ammirabil concetto, si dilegua.</l>
+        </lg>
+        <lg type="stanza">
+            <l enjamb="no">Desiderii infiniti</l>
+            <l enjmab="yes">E visioni altere</l>
+            <l enjamb="yes">Crea nel vago pensiere,</l>
+            <l enjamb="yes">Per natural virtù, dotto <rhyme>concento</rhyme>;</l>
+            <l enjamb="yes">Onde per mar delizioso, <rhyme>arcano</rhyme></l>
+            <l enjamb="yes">Erra lo spirto <rhyme>umano</rhyme>,</l>
+            <l enjamb="yes">Quasi come a diporto</l>
+            <l enjamb="yes">Ardito notator per l’<rs type="luogo">Oceano</rs>:</l>
+            <l enjamb="yes">Ma se un discorde <rhyme>accento</rhyme></l>
+            <l enjamb="yes">Fere l’orecchio. in nulla</l>
+            <l enjamb="no">Torna quel paradiso in un <rhyme>momento</rhyme>.</l>
+        </lg>
+        <lg type="stanza">
+            <l enjamb="yes">Natura umana, or come,</l>
+            <l enjamb="yes">Se frale in tutto e <rhyme>vile</rhyme>,</l>
+            <l enjamb="no">Se polve ed ombra sei, tant’alto <rhyme>senti</rhyme>?</l>
+            <l enjamb="yes">Se in parte anco <rhyme>gentile</rhyme>,</l>
+            <l enjamb="yes">Come i più degni tuoi moti e <rhyme>pensieri</rhyme></l>
+            <l enjamb="yes">Son così di <rhyme>leggeri</rhyme></l>
+            <l enjamb="no">Da sì basse cagioni e desti e <rhyme>spenti?</rhyme></l>
+        </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<item
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dc:title>Sopra il ritratto di una bella donna scolpito nel monumento sepolcrale della medesima</dc:title>
+	<dc:creator>Giacomo Leopardi</dc:creator>
+	<dc:subject>Leopardi, poesia, cimiteri, morte</dc:subject>
+	<dc:description>Scansione digitale della poesia di Leopardi contenuta nell'edizione cartacea dei Canti del 1938, curata da Leone Ginzburg</dc:description>
+	<dc:publisher>BEIC</dc:publisher>
+	<dc:date xsi:type="created">1938</dc:date>
+	<dc:date xsi:type="issued">2004</dc:date>
+	<dc:type>Scansione digitale di un testo a stampa</dc:type>
+	<dc:identifier>SBN: LIGV017317</dc:identifier>
+	<dc:language>Italiano</dc:language>
+	<dc:rights>Libero accesso</dc:rights>
+</item>

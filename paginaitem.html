@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>pagina item</title>
+ <meta charset="UTF-8">
+ <style>
+
+ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #111;
+}
+
+ul.topnav li {
+      float: left;
+}
+
+ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+ul.topnav li a:hover {
+      background-color: #111;
+}
+
+.allineamento {
+      text-align: right;
+}
+
+input[type=text] {
+  width: 150px;
+  height: 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.stringa {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+      width: 100%;
+      height: 100px;
+      font-size: 40px;
+}
+
+.stringa {
+      float: left;
+}
+
+p.stringa  {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 18px 16px;
+      text-decoration: none;
+      font-family: fantasy;
+      text-shadow: 1px 1px gray;
+      font-size: 34px;
+}
+
+p.striga {
+      background-color: #111;
+}
+
+.checked {
+  color: orange;
+  text-align: center;
+}
+
+.tabella2 {
+   border-top-style: solid;
+   border-top-color: #444;
+   border-bottom-style: none;
+   background-color: lightblue;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  background-color: #111;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.colonne {
+  border-top-style: double;
+  border-bottom-style: double;
+  border-left-style: double;
+  border-right-style: double;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}
+
+.text-box {
+  width: 80%; /* Larghezza del box */
+  height: 350px; /* Altezza del box */
+  background-color: black; /* Colore di sfondo del box */
+  color: white;
+  border: 1px solid #ccc; /* Bordo del box */
+  border-radius: 30px;
+  padding: 20px; /* Spazio interno del box */
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: grey;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: lightgrey;
+}
+
+.butt {
+  position: relative;
+  background-color: darkred;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.butt:after {
+  content: "";
+  background: orangered;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.butt:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+ </style>
+</head>
+<body>
+  <header>
+  	 <ul class="topnav" id="top">
+        <li><a href="index.html" target="blank">Home</a></li>
+        <li><a href="index.html" target="blank">Introduzione</a></li>
+        <li><a href="pagina2.html" target="blank">Catalogo</a></li>
+        <div class="allineamento"><input type="text" name="search" placeholder="Cerca.." ></div>
+     </ul>
+  </header>
+  <nav>
+     <p class="stringa">SOPRA IL RITRATTO DI UNA BELLA DONNA SCOLPITO NEL MONUMENTO SEPOLCRALE DELLA MEDESIMA, <br>GIACOMO LEOPARDI</p>
+  </nav>
+  <section>
+   <table border="0" width="100%"> 
+    <tr height="150px">
+      <td width="20%" style="display: flex;"><p><a href="index.html" target="blank">Home</a><a href="pagina2.html" target="blank">>Catalogo</a>>Sopra il ritratto di una bella donna scolpito nel monumento sepolcrale della medesima, <br>Leopardi Giacomo</p>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </td>
+    <td width="60%" style="border-left-style: solid; border-right-style: solid;">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+<!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+        <img src="flip card/leopardi 1, 1938.jpg" style="width:100%">
+      <div class="text">Incipit poesia</div>
+      </div>
+      <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+        <img src="flip card/leopardi2.jpg" style="width:100%">
+      <div class="text">Conclusione poesia</div>
+      </div>
+  <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+<!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </td>
+    <td width="20%" style="vertical-align: top;"><b> <center><br><br>SCOPRI DI PIÙ:<br><br></b>
+      <div class="card">
+          <img src="flip card/leopardino.jpg" alt="Avatar" style="width:100%; height: 300px;">
+          <div class="container">
+          <h4><b>GIACOMO LEOPARDI</b></h4> 
+          <p>Attività: Poeta</p> 
+          <p>Controllo di autorità: <a href="http://viaf.org/viaf/12311353" target="blank">Leopardi, Giacomo, VIAF</a></p>
+          <button class="btn">Consulta tutti i metadati</button>
+      </div>
+      </div><br><br><br><b>POTREBBE INTERESSARTI <br>ANCHE:</b><br><br>
+      <div class="text-box">
+        <p>SOPRA UN BASSORILIEVO ANTICO SEPOLCRALE, <br>GIACOMO LEOPARDI</p>
+        <img src="flip card/rilievo.jpg" style="width: 75%; height: 150px;"><br><br>
+        <button type="button" class="block"><a href="http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXX._Sopra_un_basso_rilievo_antico_sepolcrale,_dove_una_giovane_morta_%C3%A8_rappresentata_in_atto_di_partire,_accomiatandosi_dai_suoi_p._139" target="blank" style="text text-decoration: none; color: white;">Clicca qui</a></button>
+      </div>
+      </center>
+    </td>
+    </tr>
+    </table>
+    <table border="0" width="80%">
+      <tr>
+        <td width="20%"></td>
+        <td width="60%" class="colonne"><b>Titolo:</b> Sopra il ritratto di una bella donna scolpito nel monumento sepolcrale della medesima</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Autore:</b> <a href="http://viaf.org/viaf/12311353" target="blank">Leopardi, Giacomo</a></td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Soggetto:</b> Leopardi, poesia, cimiteri, morte</td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Data di composizione:</b> 1834-1835</td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Data della risorsa cartacea:</b> 1938</td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Editore:</b> Laterza, 2 edizione, Bari</td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Lingua:</b> Italiano</td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Identificatore SBN:</b> <a href="https://opac.sbn.it/risultati-autori/-/opac-autori/detail/LIGV017317?core=autoriall" target="blank">LIGV017317</a></td>
+      </tr>
+       <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Istituzione fornitrice (risorsa digitale):</b> <a href="https://www.beic.it" target="blank">BEIC</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td width="20%" class="colonne"><b>Licenza:</b> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="blank">CC BY-SA 4.0</a> </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td width="20%" height="40px" class="colonne"><b>Metadati vari: <button class="button"><a href="leopardi2.xml" target="blank" style="text-decoration: none; color: white;">XML/TEI (TESTO COMPLETO)</a></button> &nbsp &nbsp <button class="button"><a href="leopardi.xml" target="blank" style="text-decoration: none; color: white;">XML/DC</a></button></b> &nbsp &nbsp <b>Approfondisci il testo su:<b> &nbsp <button class="butt"><a href="https://voyant-tools.org/?corpus=db698fc5d3940c33069b5f350b7b401b" target="blank" style="text-decoration: none; color: white;">VOYANT TOOLS</a></button></td>
+      </tr>
+    </table>
+    <table width="100%" class="tabella2">
+        <tr>
+            <td><a href="#top"> Crediti | Licenze </a> <br> <a href="#top"> About | Contatti</td>
+            <td style="text-align: right;"> 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </td>
+        </tr>
+    </table>
+  </section>
+  <footer>
+    <p>&copy; Copyright Giovanni Camporese, 2023</p>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </footer>
+    <script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+  </script>
+</body>
+</html>
+
+
+
